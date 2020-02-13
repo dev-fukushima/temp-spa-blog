@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>NEWS一覧</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <HeaderBox></HeaderBox>
+    <h1 class="news-ttl">
+      <span class="news-ttl_text">NEWS</span>
+    </h1>
+    <router-view></router-view>
+    <FooterBox/>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.min.js" defer></script>
+  <script src="https://unpkg.com/vue-router/dist/vue-router.js" defer></script>
+  <script src="/function.js" defer></script>
+</body>
+</html>
