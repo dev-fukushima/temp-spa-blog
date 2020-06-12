@@ -12,7 +12,7 @@ const footerbox = {
 const Post = {
   data:function(){
      return {post:[
-      {'time':'2019/10/30','post':'test','link':'https://7net.omni7.jp/top','blank':'on'}
+      {'time':'2019/10/30','post':'test','link':'https://test.jp/top','blank':'on'}
     ],
     view_post:{},
     pages:[],
@@ -73,7 +73,7 @@ const Post = {
 const Posts = {
   data:function(){
      return {posts:[
-      {'time':'2019/10/30','post':'test','link':'https://7net.omni7.jp/top','blank':'on','id':1}
+      {'time':'2019/10/30','post':'test','link':'https://test.jp/top','blank':'on','id':1}
     ],
     pages:[],
     page_len:5,
